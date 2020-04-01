@@ -19,5 +19,5 @@ end
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 current_player(board)
-return = current_player(board)
-puts return
+returns = current_player(board)
+puts returns
