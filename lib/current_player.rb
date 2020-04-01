@@ -12,6 +12,6 @@ def current_player(board)
     return "O"
   end
   if counter.odd?
-    "X"
+    return "X"
   end
-end 
+end
