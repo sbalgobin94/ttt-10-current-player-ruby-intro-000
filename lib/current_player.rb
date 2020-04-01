@@ -15,8 +15,6 @@ def current_player(board)
   else
     return "O"
   end
-  player = current_player(board)
-  puts player
 end
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
