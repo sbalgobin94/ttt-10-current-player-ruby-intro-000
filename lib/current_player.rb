@@ -15,10 +15,11 @@ def current_player(board)
   turn_count(board)
   if counter % 2 == 0
     return "X"
-  end
-  if counter % 2 != 0
+  else
     return "O"
   end
+  player = current_player(board)
+  puts player
 end
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
