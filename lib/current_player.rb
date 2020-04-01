@@ -4,16 +4,15 @@ def turn_count(board)
     if element == "X" || element == "O"
       counter += 1
     end
-    return counter
   end
 end
 
 def current_player(board)
   turn_count(board)
-  if counter.even? == true
+  if counter.even?
     return "O"
   end
-  if counter.odd? == true
+  if counter.odd?
     return "X"
   end
 end
