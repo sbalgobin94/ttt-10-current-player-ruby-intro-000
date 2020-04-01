@@ -10,8 +10,9 @@ end
 
 def current_player(board)
   counter = turn_count(board)
-  puts "checkpoint line 13"
+  puts "printing counter..."
   puts counter
+  puts "printing counter done"
   if counter % 2 == 0
     return "X"
   else
