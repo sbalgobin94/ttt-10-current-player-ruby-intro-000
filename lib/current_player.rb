@@ -18,3 +18,7 @@ def current_player(board)
     return "O"
   end
 end
+
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+turn_count(board)
+current_player(board)
