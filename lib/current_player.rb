@@ -8,10 +8,9 @@ end
 
 def current_player(board)
   turn_count(board)
-  if counter.even?
+  if counter % 2 == 0
     return "X"
-  if counter.even? != true
+  else
     return "O"
-  end 
   end
 end
