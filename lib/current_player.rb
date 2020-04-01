@@ -16,8 +16,3 @@ def current_player(board)
     return "O"
   end
 end
-
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-current_player(board)
-returns = current_player(board)
-puts returns
